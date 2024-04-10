@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Istok Web", sans-serif;
+    font-size:large;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/856/382/large_2x/blur-wallpaper-background-in-red-white-and-blue-cool-modern-simple-and-minimalist-free-photo.jpg);
+    background-size: cover;
+    
+
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#fields-container {
+    display: flex;
+    gap: 9vw;
+    background-color: rgba(165, 165, 165, 0.64);
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+
+}
+
+.avatar {
+    width: 5vw;
+    height: 10vh;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.text-field{
+    width: 20vw;
+    height: 4vh;
+}
+
+#message-container {
+    background-color: #f8efef;
+    padding: 2vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    width: 75vw;
+    height: 60vh;
+}
+.send-button{
+    width: 5vw;
+    border-radius: 5vh;
+}
+#button1{
+    background-color: #244AFC;
+    border: none;
+    color: white;
+
+}
+#button2{
+    background-color: #FC2724;
+    border: none;
+    color: white;
+
+}
+input{
+    border: none;
+    display: flex;
+    padding: 1vh;
+    border-radius: 2vh;
+    outline: none;
+}
